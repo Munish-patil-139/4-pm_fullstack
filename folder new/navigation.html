@@ -1,0 +1,110 @@
+<html>
+<head>
+<style>
+           .main{
+		          width:970px;
+				  height:800px;
+				  background:red;
+				  margin:auto;
+		   }
+		   .header{
+		          width:970px;
+				  height:200px;
+				  background:blue;
+		   }
+		   .cont{
+		           width:970px;
+				   height:550px;
+				   background:pink;
+		   }
+		   .L{
+		           width:285px;
+				   height:550px;
+				   background:orange;
+				   float:left;
+		   }
+		   .R{
+		            width:485px;
+					height:550px;
+					//background:blue;
+					float:left;
+		   }
+		   .nav{
+		            background:blue;
+					overflow:hidden;
+					bottom:0;
+		   }
+		   .nav a{
+		             float:left;
+					 display:block;
+					 color:white;
+					 text-align:center;
+					 padding:14px 16px;
+					 text-decoration:none;
+		   }
+		   .nav a:hover{
+		             background:green;
+					 color:black;
+		   }
+		   .nave ul{
+		           list-style-type:none;
+				   margin:0px;
+				   padding:0px;
+				   overflow:hidden;
+				   background:lightgray;
+				   bottom:0;
+				   padding:0px;
+				   
+		   }
+		   .nave li{
+		           float:left;
+				   border-right:1px solid blue;
+				   
+		   }
+		   .nave li a{
+		            display:block;
+					color:blue;
+					font-size:20px;
+					text-align:center;
+					padding:10px 20px;
+					text-decoration:none;
+		   }
+		   .active{
+		          background:gray;
+				  color:white;
+		   }
+		   .nave li a:hover{
+		           background:orange;
+				   color:white;
+		   }
+		   
+</style>
+
+</head>
+<body>
+        <div class="main">
+		<div class="header">
+		     <div class="nav">
+			     <a href="#Home">Home</a>
+				 <a href="#About">About</a>
+				 <a href="#Servicess">Servicess</a>
+				 <a href="#Contact">Contact</a>
+				 <a href="#Product">Product</a>
+			 </div>
+			 <div class="nave">
+			     <ul>
+				      <li><a class="active" href="#Home">Home</a></li>
+					  <li><a href="#">JAVA</a></li>
+					  <li><a href="#">HTML</a></li>
+					  <li><a href="#">CSS</a></li>
+				 </ul>
+			 </div>
+		</div>
+		<div class="cont">
+		    <div class="L"></div>
+			<div class="R"></div>
+		</div>
+		<div class="footer"></div>
+		</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<style>
+    body{
+	/*
+	background-color:yellow;background-image:url(PRODUCT-RANGE.JPG);background-repeat:no-repeat; background-position:20px 100px; background-attachment:fixed
+	*/
+	background:url(PRODUCT-RANGE.JPG) no-repeat 200px 100px fixed aqua;
+	}
+	#d1{
+	     background:red;
+	}
+	#d3{
+	     background:orange;
+	}
+	#d4{
+	     background:green;
+	}
+	#d5{
+	     background:gray;
+	}
+	#d6{
+	     background:purple;
+		 color:white;
+	}
+	h1{
+	     background:purple;
+	}
+	#p1{
+	    background:blue;
+	}
+	#p2{
+	    background:orange;
+	}
+	#p3{
+	    background:blue;
+	}
+	#p4{
+	    background:gray;
+	}
+	.c1{
+	    background:blue;
+		color:white;
+	}
+	</style>

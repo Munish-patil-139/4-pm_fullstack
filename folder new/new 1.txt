@@ -1,0 +1,21 @@
+<html>
+<head>
+       <title></title>
+</head>
+<body>
+       <table>
+	          <tr>
+			       <td>Eid</td>
+				   <td>Ename</td>
+				   <td>Eloc</td>
+				   <td>Esal</td>
+			  </tr>
+			  <tr>
+	                <td>1</td>
+                    <td>Munish patil</td>
+					<td>Amalner</td>
+					<td>120000</td>
+			  </tr>
+	   </table>
+</body>
+</html>
